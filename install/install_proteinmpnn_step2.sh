@@ -1,5 +1,6 @@
 PROTEINMPNNDIR="/ProteinMPNN"
 
+. "${PROTEINMPNNDIR}/conda/etc/profile.d/conda.sh"
 cd ${PROTEINMPNNDIR}
 export PATH="${PROTEINMPNNDIR}/conda/condabin:${PATH}"
 conda activate $PROTEINMPNNDIR/proteinmpnn-conda
