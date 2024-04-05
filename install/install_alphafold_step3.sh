@@ -29,6 +29,8 @@ popd
 
 # Download weights
 "$COLABFOLDDIR/colabfold-conda/bin/python3" -m colabfold.download
+chown -R root:root "${COLABFOLDDIR}/colabfold/params"
+
 echo "Download of alphafold2 weights finished."
 echo "-----------------------------------------"
 echo "Installation of ColabFold finished."
